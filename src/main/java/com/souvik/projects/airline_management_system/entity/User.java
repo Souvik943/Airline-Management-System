@@ -1,13 +1,17 @@
 package com.souvik.projects.airline_management_system.entity;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
 @Table(name = "user_details")
 @Entity
 @Builder
+@AllArgsConstructor
+@NoArgsConstructor
 public class User {
 
     @Id
