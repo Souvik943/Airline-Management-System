@@ -2,8 +2,8 @@ package com.souvik.projects.airline_management_system.validator;
 
 import com.souvik.projects.airline_management_system.entity.User;
 import com.souvik.projects.airline_management_system.model.ErrorAMS;
-import com.souvik.projects.airline_management_system.model.CreateNewUserRequest;
-import com.souvik.projects.airline_management_system.model.GetUserRequest;
+import com.souvik.projects.airline_management_system.model.user.CreateNewUserRequest;
+import com.souvik.projects.airline_management_system.model.user.GetUserRequest;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

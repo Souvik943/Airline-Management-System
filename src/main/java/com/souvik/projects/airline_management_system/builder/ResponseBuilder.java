@@ -1,10 +1,10 @@
 package com.souvik.projects.airline_management_system.builder;
 
 import com.souvik.projects.airline_management_system.entity.User;
-import com.souvik.projects.airline_management_system.model.CreateNewUserRequest;
+import com.souvik.projects.airline_management_system.model.user.CreateNewUserRequest;
 import com.souvik.projects.airline_management_system.model.ErrorAMS;
 import com.souvik.projects.airline_management_system.model.GenericResponse;
-import com.souvik.projects.airline_management_system.model.GetUsersResponse;
+import com.souvik.projects.airline_management_system.model.user.GetUsersResponse;
 import org.springframework.stereotype.Component;
 
 import java.util.List;

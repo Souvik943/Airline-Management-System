@@ -1,4 +1,4 @@
-package com.souvik.projects.airline_management_system.model;
+package com.souvik.projects.airline_management_system.model.user;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
